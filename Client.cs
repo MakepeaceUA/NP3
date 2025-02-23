@@ -16,7 +16,7 @@ namespace ConsoleApp29
                     Socket ClientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
                     ClientSocket.Connect(EndPoint);
-                    Console.WriteLine("Клиент подключился к серверу. Введите валютную пару (USD EURO) или 'exit' для выхода.");
+                    Console.WriteLine("Клиент подключился к серверу. Введите валютную пару (USD EU) или 'exit' для выхода.");
 
                     while (true)
                     {
